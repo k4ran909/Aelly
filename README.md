@@ -1,28 +1,72 @@
-<p align="center">
-<img alt="Text-to-handwriting title image" src="https://te.legra.ph/file/a0c2cb0828648530d7c2e.jpg" /> 
-<br/><b><a href="https://AellyOfficial.github.io/Aelly.ai/">𝔸𝕖𝕝𝕝𝕪</a></b><br/><br/><img alt="NPM Version" src="https://img.shields.io/github/package-json/v/AellyOfficial/Aelly.ai?style=for-the-badge&labelColor=black&logo=npm&color=darkred" /> <a href="#contributing"><img alt="Contributions Welcome" src="https://img.shields.io/badge/contributions-welcome-brightgreen?style=for-the-badge&labelColor=black&logo=github"></a> <br/><a href="https://github.com/AellyOfficial/Aelly.ai/blob/main/LICENSE"> <img alt="GitHub License MIT" src="https://img.shields.io/github/license/AellyOfficial/Aelly?style=for-the-badge&labelColor=black&logo=github"> </a></a><br/><br/> I hate writing assignments so I made this tool that converts text to an image that looks like handwriting😛
+# Aelly.ai - Text to Handwriting
 
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
+
+<p align="center">
+  <img src="https://te.legra.ph/file/a0c2cb0828648530d7c2e.jpg" alt="Aelly - Text to Handwriting" width="100%">
 </p>
 
+## 🚀 Overview
 
+**Aelly** is a smart web tool that instantly converts digital text into realistic handwritten pages, originally designed to help with assignments. It offers extensive customization, including ink colors, spacing, paper effects, and support for custom handwriting fonts. Users can easily generate and export their work as high-quality images or PDFs.
 
-## 🌠 Output
+## ✨ Features
 
-<p align="center"><img width="400" alt="Sample image of output" src="sample.jpeg" />
+-   **Realistic Rendering**: Converts typed text into handwriting on lined paper.
+-   **Customization**:
+    -   **Fonts**: Choose from built-in handwriting fonts or upload your own (`.ttf`/`.otf`).
+    -   **Ink**: Switch between Blue, Black, and Red ink colors.
+    -   **Paper Effects**: Add shadows or scanner effects for realism.
+    -   **Spacing**: Adjust word, letter, and vertical spacing.
+-   **Export Options**: Download output as Images or PDF.
+-   **Diagram Support**: (Beta) Draw and add diagrams to your notes.
+-   **Dark Mode**: Fully supported dark theme.
 
-## 🤗 Contributing
+## 📸 Output Example
 
-Checkout [Contribution Guide](CONTRIBUTING.md) for local setup and contribution guide.
+<p align="center">
+  <img src="sample.jpeg" alt="Sample Output" width="400" />
+</p>
 
-## 📚 Libraries used
+## 🛠️ Built With
 
-- [html2canvas](https://github.com/niklasvh/html2canvas) - Turns DOM into Canvas.
-- [jsPDF](https://github.com/MrRio/jsPDF) - To generate PDF from images.
-- [cypress](https://github.com/cypress-io/cypress) - Testing Library
-- [serve](https://github.com/zeit/serve) - Start local server
+-   [html2canvas](https://github.com/niklasvh/html2canvas) - DOM to Canvas rendering.
+-   [jsPDF](https://github.com/MrRio/jsPDF) - Client-side PDF generation.
+-   [Cypress](https://github.com/cypress-io/cypress) - End-to-end testing.
+-   [Serve](https://github.com/zeit/serve) - Local development server.
+
+## 🏁 Getting Started
+
+To run the project locally:
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/k4ran909/Aelly.git
+    cd Aelly
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server**
+    ```bash
+    npm run dev
+    ```
+
+   Open the local server URL to view it in the browser.
+
+## 🤝 Contributing
+
+Contributions are always welcome! Please read the [Contribution Guide](CONTRIBUTING.md) to learn how you can get involved.
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-
-Bye!
-Have fun 🦄
+<p align="center">
+  Made with ❤️ by <a href="https://t.me/k4ran909">Karan Raj</a>
+</p>
