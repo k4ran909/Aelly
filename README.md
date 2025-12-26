@@ -26,7 +26,7 @@
 ## 📸 Output Example
 
 <p align="center">
-  <img src="sample.jpeg" alt="Sample Output" width="400" />
+  <img src="banner.jpeg" alt="Sample Output" width="400" />
 </p>
 
 ## 🛠️ Built With
